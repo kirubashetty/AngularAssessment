@@ -1,0 +1,39 @@
+
+<section class="display-block">
+  <div class="row ">
+      <div class="col display-sec">
+         <h2 class="text-center">Your Wallet Detail</h2>
+  
+         <table class="container">
+          <thead class="display-sec">
+              <tr style="height: 100px; width: 200px;">
+                <th scope="col">ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">Balance</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr style="height: 100px; width: 200px;">
+                  <th scope="col">{{userid}}</th>
+                  <th scope="col">{{username}}</th>
+                  <th scope="col">{{userbalance}}</th>
+              </tr>
+              <tr style="height: 100px; width: 200px;">
+                <th scope="col"> <div  class="text-center">
+                  <button class="btn btn-primary mr-1"  routerLink="/addfund" >Add Fund</button>
+              </div></th>
+                <th scope="col"><div  class="text-center">
+                  <button class="btn btn-primary mr-1" routerLink="/withdrawfund">Withdraw Fund</button>
+              </div></th>
+                <th scope="col"><div  class="text-center">
+                  <button class="btn btn-primary mr-1" routerLink="/transferfund">Transfer Fund</button>
+              </div></th>
+            </tr>
+  
+            </tbody>
+         </table>
+      </div>
+  </div>
+  </section>
+
+  
