@@ -4,7 +4,7 @@ import { Router } from '@angular/router';
 import { Message } from 'primeng/api';
 import { Transferdto } from 'src/app/entity/transferdto';
 import { WalletService } from 'src/app/service/wallet.service';
-import { Greaternumber } from '../CustomValidator/greaternumber.validator';
+
 
 @Component({
   selector: 'app-addfund',
